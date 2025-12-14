@@ -1,3 +1,6 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
 /*
 background purple: #540B51
 background ivory: #F3EAE2
@@ -8,3 +11,305 @@ paragraph yellow: #ECB12F
 links blue: #2E71A6
 footer links grey: #454245
 */
+body {
+    background-color: #540B51;
+    font-family: "Roboto", sans-serif;
+    font-size: 2rem;
+    display: block;
+    margin: ;
+    /* padding: 10px; */
+    /* margin: 20px; */
+}
+
+@media screen and (max-width: 768px) {
+   .navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+}
+
+.navbar li {
+    list-style: none;
+    display: none;
+}
+
+.navbar a{
+    text-decoration: none;
+    color: aliceblue;
+    font-size: 1rem;
+}
+
+#slack-logo {
+    width: 4em;
+    height: 1em;
+}
+
+.nav-btns {
+    background-color: #540B51;
+    border-style: none;
+    margin: 5px;
+}
+
+h1 {
+    font-size: 5rem;
+    color: #F3EAE2;
+    text-align: center;
+}
+
+header {
+    display: block;
+    margin: auto;
+} 
+
+.header p{
+    font-size: 1.5rem;
+    color: aliceblue;
+     text-align: center;
+}
+
+span {
+    color: #ECB12F;
+}
+
+.header-btns{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 30%;
+}
+
+.head-btns {
+    align-items: center;
+    width: 90%;
+    height: 60px;
+    border-radius: 7px;
+    text-transform: uppercase;
+    color: #540B51;
+    font-weight: 600;
+}
+
+.head-btns span{
+    color: aliceblue;
+}
+
+.g-btns {
+    background-color:  #4285F4;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+
+.g-img {
+    height: 25px;
+    width: 25px;
+    padding: 10px;
+    border-radius: 3px;
+    background-color: aliceblue;
+}
+
+.img-product {
+    margin: 20px;
+}
+
+#prod-img {
+    width: 100%;
+    height: 50%;
+    z-index: -1111;
+    margin-top: 40px;
+}
+
+.main-sec {
+    background-color: aliceblue;
+    width: 100%;
+}
+
+.main-sec p {
+    text-align: center;
+}
+
+.sponsor-logos {
+    display: contents;
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.comp-list {
+    background-color: #F3EAE2;
+    padding: 30px;
+}
+.comp-list p{
+    text-transform: uppercase;
+    font-weight: bolder;
+    font-size: 1.5rem;
+}
+
+.logo1 {
+    height: 100px;
+    width: 150px;
+    object-fit: contain;
+}
+
+.logo2 {
+    height: 100px;
+    width: 100px;
+    object-fit: contain;
+}
+
+.logo3 {
+    height: 100px;
+    width: 100px;
+    object-fit: contain;
+
+}
+
+.logo4 {
+    height: 80px;
+    width: 80px;
+    object-fit: contain;
+}
+
+.logo5 {
+    height: 100px;
+    width: 350px;
+    object-fit: contain;
+}
+
+.logo6 {
+    height: 90px;
+    width: 170px;
+    object-fit: contain;
+}
+
+.app-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+.app-info h3 {
+    color: #540B51;
+    font-size: 3rem;
+    text-align: center;
+    padding: 0 40px;
+    margin: 40px 0 0 0;
+}
+
+.app-info p {
+   font-size: 1.3rem;
+   text-align: center;
+   margin: 0;
+}
+
+.num{
+    color: #540B51;
+    font-weight: bolder;
+    font-size: 4rem;
+}
+
+.trial-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #540B51;
+}
+
+.trial-section h3 {
+    color: aliceblue;
+    font-size: 4rem;
+    text-align: center;
+}
+
+.info-list li{
+    list-style-type: none;
+    width: 200px;
+    height: 200px;
+}
+
+.info-list p {
+     text-align: center;
+     margin: 1px;
+}
+
+.lighter {
+    font-weight: lighter;
+    text-align: center;
+}
+
+.btns {
+    background-color:#F3EAE2;
+    border-style: none;
+    margin: 10px;
+    width: 90%;
+    height: 60px;
+    border-radius: 3px;
+    text-transform: uppercase;
+    color: #540B51;
+    font-weight: 600;
+}
+
+.purp-btn {
+    background-color: #540B51;
+    color: aliceblue;
+    border: 1px solid aliceblue;
+}
+
+footer {
+    background-color: aliceblue;
+    display: flex;
+    flex-direction: column;
+    font-size: 1rem;
+    font-weight: bolder;
+    width: 100%;
+    align-items: center;
+}
+
+hr {
+    border: 1px solid rgb(199, 193, 193);
+    width: 95%;
+    margin-top: 50px;
+}
+
+.contact{
+    width: 100%;
+    list-style-type: none;
+    line-height: 3rem;
+}
+
+
+.contact a {
+    color: #4285F4;
+    text-decoration: none;
+}
+
+footer p{
+    text-align: center;
+}
+
+.socials-icon {
+    display: flex;
+    width: 90%;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    list-style-type: none;
+    font-size: 1.3rem;
+    margin: 10px;
+}
+@media screen (min-width: 768px) and (max-width: 1024px) {
+    
+}
+
+@media screen (min-width: 1024) and (max-width: 1440px){
+
+}
+
+@media screen (mid.width: 1440px){
+    
+}
+
